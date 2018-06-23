@@ -1,0 +1,23 @@
+{
+  "name": "driveforyou",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer-cli": "^1.0.0",
+    "bourbon": "^5.0.1",
+    "browser-sync": "^2.24.4",
+    "glob-run": "^0.1.6",
+    "jshint": "^2.9.5",
+    "nu-html-checker": "^0.1.0",
+    "onchange": "^4.0.0",
+    "parallelshell": "^3.0.2",
+    "rimraf": "^2.6.2"
+  }
+}
