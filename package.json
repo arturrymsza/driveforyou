@@ -4,7 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npm run test:html && npm run test:js",
+    "test:html": "glob-run nu-html-checker *.html",
+    "test:js": "glob-run jshint \"js/*.js\" ",
+    "build:css": "npm run build:sass && npm run build:autoprefixer",
+    "build": "npm run build:clean && npm run build:sass && npm run build:autoprefixer && npm run test",
+    "build:clean": "rimraf css/*",
+    "build:sass": "sass --sourcemap=none --update sass:css",
+    "build:autoprefixer": "autoprefixer-cli css/style.css",
+    "watch": "parallelshell \"npm run watch:sassprefixer\" \"npm run watch:browsersync\" ",
+    "watch:sassprefixer": "onchange sass/* -- npm run build:css",
+    "watch:browsersync": "browser-sync start --server --files \"*.css\" \"*.html\" "
   },
   "keywords": [],
   "author": "",

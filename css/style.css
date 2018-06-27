@@ -1,0 +1,41 @@
+.container {
+  width: 100%;
+  max-width: 1140px;
+  margin: 0 auto; }
+
+header {
+  position: fixed;
+  top: 0;
+  z-index: 2; }
+  header .top-menu ul {
+    width: 100vw;
+    height: 10vh;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+        flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -ms-flex-align: center;
+        align-items: center;
+    text-transform: uppercase;
+    font-size: 2.5vh; }
+    header .top-menu ul a {
+      text-decoration: none;
+      color: white; }
+
+.jumbotron {
+  position: relative;
+  background-image: url("../img/jumbotron.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center; }
