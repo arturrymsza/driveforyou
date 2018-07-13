@@ -1,3 +1,11 @@
+$background: #272727;
+$yellow: #e5ac00;
+
+body {
+	background-color: $background;
+}
+
+
 .container {
 	width: 100%;
 	max-width: 1140px;
@@ -40,4 +48,41 @@ header {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+}
+
+.advantages {
+	height: 60vh;
+	width: 100vw;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	overflow: hidden;
+
+	.quality {
+		color: white;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+		font-size: 28px;
+		padding: 0 40px;
+
+		h2 {
+			padding: 85px;
+			text-align: center;
+			background-image: url('../img/kolo.png');
+			background-position: center;
+			background-size: 170px;
+			background-repeat: no-repeat;
+		}
+
+	}
+
+	h4 {
+		color: $yellow;
+		font-size: 20px;
+		text-align: justify;
+		padding: 0 40px;
+	}
+
 }

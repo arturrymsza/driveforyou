@@ -1,3 +1,6 @@
+body {
+  background-color: #272727; }
+
 .container {
   width: 100%;
   max-width: 1140px;
@@ -39,3 +42,38 @@ header {
       justify-content: center;
   -ms-flex-align: center;
       align-items: center; }
+
+.advantages {
+  height: 60vh;
+  width: 100vw;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  overflow: hidden; }
+  .advantages .quality {
+    color: white;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+        flex-direction: row;
+    -ms-flex-pack: justify;
+        justify-content: space-between;
+    -ms-flex-align: center;
+        align-items: center;
+    font-size: 28px;
+    padding: 0 40px; }
+    .advantages .quality h2 {
+      padding: 85px;
+      text-align: center;
+      background-image: url("../img/kolo.png");
+      background-position: center;
+      background-size: 170px;
+      background-repeat: no-repeat; }
+  .advantages h4 {
+    color: #e5ac00;
+    font-size: 20px;
+    text-align: justify;
+    padding: 0 40px; }
