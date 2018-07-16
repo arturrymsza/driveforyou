@@ -64,15 +64,15 @@ header {
 		flex-direction: row;
 		justify-content: space-between;
 		align-items: center;
-		font-size: 28px;
+		font-size: 38px;
 		padding: 0 40px;
 
 		h2 {
-			padding: 85px;
+			padding: 100px;
 			text-align: center;
 			background-image: url('../img/kolo.png');
 			background-position: center;
-			background-size: 170px;
+			background-size: 200px;
 			background-repeat: no-repeat;
 		}
 
@@ -80,9 +80,43 @@ header {
 
 	h4 {
 		color: $yellow;
-		font-size: 20px;
+		font-size: 30px;
 		text-align: justify;
 		padding: 0 40px;
 	}
 
+}
+
+.services {
+	width: 100vw;
+	height: 40vh;
+	display: flex;
+	flex-basis: 33.3%;
+	flex-direction: row;
+	padding: 0;
+	justify-content: space-between;
+
+	.wrapper {
+		width: 33.3%;
+		height: 30vw;
+		color: $yellow;
+		.driver {
+			background-image: url('../img/driver.jpg');
+			background-size: cover;
+			background-position: center;
+			height: 30vw;
+		}
+		.airport {
+			background-image: url('../img/airport.jpg');
+			height: 30vw;
+			background-size: cover;
+			background-position: center;
+		}
+		.multivan {
+			background-image: url('../img/multivan.jpg');
+			height: 30vw;
+			background-size: cover;
+			background-position: center;
+		}
+	}
 }

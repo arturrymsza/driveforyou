@@ -63,17 +63,49 @@ header {
         justify-content: space-between;
     -ms-flex-align: center;
         align-items: center;
-    font-size: 28px;
+    font-size: 38px;
     padding: 0 40px; }
     .advantages .quality h2 {
-      padding: 85px;
+      padding: 100px;
       text-align: center;
       background-image: url("../img/kolo.png");
       background-position: center;
-      background-size: 170px;
+      background-size: 200px;
       background-repeat: no-repeat; }
   .advantages h4 {
     color: #e5ac00;
-    font-size: 20px;
+    font-size: 30px;
     text-align: justify;
     padding: 0 40px; }
+
+.services {
+  width: 100vw;
+  height: 40vh;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-preferred-size: 33.3%;
+      flex-basis: 33.3%;
+  -ms-flex-direction: row;
+      flex-direction: row;
+  padding: 0;
+  -ms-flex-pack: justify;
+      justify-content: space-between; }
+  .services .wrapper {
+    width: 33.3%;
+    height: 30vw;
+    color: #e5ac00; }
+    .services .wrapper .driver {
+      background-image: url("../img/driver.jpg");
+      background-size: cover;
+      background-position: center;
+      height: 30vw; }
+    .services .wrapper .airport {
+      background-image: url("../img/airport.jpg");
+      height: 30vw;
+      background-size: cover;
+      background-position: center; }
+    .services .wrapper .multivan {
+      background-image: url("../img/multivan.jpg");
+      height: 30vw;
+      background-size: cover;
+      background-position: center; }
