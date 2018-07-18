@@ -87,36 +87,127 @@ header {
 
 }
 
+.section_head {
+	color: white;
+	text-transform: uppercase;
+	padding: 4vw 0 2vw;
+	font-size: 3.5vh;
+}
+
 .services {
 	width: 100vw;
-	height: 40vh;
 	display: flex;
-	flex-basis: 33.3%;
-	flex-direction: row;
-	padding: 0;
-	justify-content: space-between;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
 
-	.wrapper {
-		width: 33.3%;
-		height: 30vw;
-		color: $yellow;
-		.driver {
-			background-image: url('../img/driver.jpg');
-			background-size: cover;
-			background-position: center;
-			height: 30vw;
+
+	.our_services {
+		width: 100vw;
+		display: flex;
+		flex-basis: 33.3%;
+		flex-direction: row;
+		padding: 0;
+		justify-content: space-between;
+
+		.wrapper {
+			width: 33.333333%;
+			height: 25vw;
+			color: $yellow;
+			text-align: center;
+			.driver {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				font-size: 2vw;
+				background-image: url('../img/driver.jpg');
+				background-size: cover;
+				background-position: center;
+				height: 25vw;
+			}
+			.airport {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				font-size: 2vw;
+				background-image: url('../img/airport.jpg');
+				height: 25vw;
+				background-size: cover;
+				background-position: center;
+			}
+			.multivan {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				font-size: 2vw;
+				background-image: url('../img/multivan.jpg');
+				height: 25vw;
+				background-size: cover;
+				background-position: center;
+			}
 		}
-		.airport {
-			background-image: url('../img/airport.jpg');
-			height: 30vw;
-			background-size: cover;
-			background-position: center;
-		}
-		.multivan {
-			background-image: url('../img/multivan.jpg');
-			height: 30vw;
-			background-size: cover;
-			background-position: center;
+	}
+}
+
+.tours {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+
+	.pictures {
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: space-around;
+		align-items: center;
+		align-content: space-around;
+
+		.wrapper {
+			flex: 0 1 33%;
+			padding: 10px 0;
+
+			.malbork,
+			.stutthof,
+			.szymbark,
+			.night,
+			.shop,
+			.golf {
+				display: flex;
+				flex-direction: column;
+				justify-content: space-between;
+				align-items: center;
+				text-align: center;
+				width: 360px;
+				height: 450px;
+				background-color: $yellow;
+				&:hover {
+					.layer {
+						visibility: visible;
+					}
+				}
+
+				.layer {
+					position: absolute;
+					visibility: hidden;
+					color: black;
+					width: 360px;
+					height: 300px;
+					background-color: $yellow;
+					opacity: 0.85;
+					text-align: center;
+				}
+
+				img {
+					width: 360px;
+					height: 300px;
+				}
+
+				h2 {
+					text-transform: uppercase;
+					font-size: 35px;
+					padding: 60px;
+				}
+			}
 		}
 	}
 }

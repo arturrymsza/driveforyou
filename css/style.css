@@ -78,34 +78,152 @@ header {
     text-align: justify;
     padding: 0 40px; }
 
+.section_head {
+  color: white;
+  text-transform: uppercase;
+  padding: 4vw 0 2vw;
+  font-size: 3.5vh; }
+
 .services {
   width: 100vw;
-  height: 40vh;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-preferred-size: 33.3%;
-      flex-basis: 33.3%;
-  -ms-flex-direction: row;
-      flex-direction: row;
-  padding: 0;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around; }
+  .services .our_services {
+    width: 100vw;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-preferred-size: 33.3%;
+        flex-basis: 33.3%;
+    -ms-flex-direction: row;
+        flex-direction: row;
+    padding: 0;
+    -ms-flex-pack: justify;
+        justify-content: space-between; }
+    .services .our_services .wrapper {
+      width: 33.333333%;
+      height: 25vw;
+      color: #e5ac00;
+      text-align: center; }
+      .services .our_services .wrapper .driver {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-pack: center;
+            justify-content: center;
+        -ms-flex-align: center;
+            align-items: center;
+        font-size: 2vw;
+        background-image: url("../img/driver.jpg");
+        background-size: cover;
+        background-position: center;
+        height: 25vw; }
+      .services .our_services .wrapper .airport {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-pack: center;
+            justify-content: center;
+        -ms-flex-align: center;
+            align-items: center;
+        font-size: 2vw;
+        background-image: url("../img/airport.jpg");
+        height: 25vw;
+        background-size: cover;
+        background-position: center; }
+      .services .our_services .wrapper .multivan {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-pack: center;
+            justify-content: center;
+        -ms-flex-align: center;
+            align-items: center;
+        font-size: 2vw;
+        background-image: url("../img/multivan.jpg");
+        height: 25vw;
+        background-size: cover;
+        background-position: center; }
+
+.tours {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
   -ms-flex-pack: justify;
-      justify-content: space-between; }
-  .services .wrapper {
-    width: 33.3%;
-    height: 30vw;
-    color: #e5ac00; }
-    .services .wrapper .driver {
-      background-image: url("../img/driver.jpg");
-      background-size: cover;
-      background-position: center;
-      height: 30vw; }
-    .services .wrapper .airport {
-      background-image: url("../img/airport.jpg");
-      height: 30vw;
-      background-size: cover;
-      background-position: center; }
-    .services .wrapper .multivan {
-      background-image: url("../img/multivan.jpg");
-      height: 30vw;
-      background-size: cover;
-      background-position: center; }
+      justify-content: space-between;
+  -ms-flex-align: center;
+      align-items: center; }
+  .tours .pictures {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: row wrap;
+        flex-flow: row wrap;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -ms-flex-align: center;
+        align-items: center;
+    -ms-flex-line-pack: distribute;
+        align-content: space-around; }
+    .tours .pictures .wrapper {
+      -ms-flex: 0 1 33%;
+          flex: 0 1 33%;
+      padding: 10px 0; }
+      .tours .pictures .wrapper .malbork,
+      .tours .pictures .wrapper .stutthof,
+      .tours .pictures .wrapper .szymbark,
+      .tours .pictures .wrapper .night,
+      .tours .pictures .wrapper .shop,
+      .tours .pictures .wrapper .golf {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: column;
+            flex-direction: column;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+        -ms-flex-align: center;
+            align-items: center;
+        text-align: center;
+        width: 360px;
+        height: 450px;
+        background-color: #e5ac00; }
+        .tours .pictures .wrapper .malbork:hover .layer,
+        .tours .pictures .wrapper .stutthof:hover .layer,
+        .tours .pictures .wrapper .szymbark:hover .layer,
+        .tours .pictures .wrapper .night:hover .layer,
+        .tours .pictures .wrapper .shop:hover .layer,
+        .tours .pictures .wrapper .golf:hover .layer {
+          visibility: visible; }
+        .tours .pictures .wrapper .malbork .layer,
+        .tours .pictures .wrapper .stutthof .layer,
+        .tours .pictures .wrapper .szymbark .layer,
+        .tours .pictures .wrapper .night .layer,
+        .tours .pictures .wrapper .shop .layer,
+        .tours .pictures .wrapper .golf .layer {
+          position: absolute;
+          visibility: hidden;
+          color: black;
+          width: 360px;
+          height: 300px;
+          background-color: #e5ac00;
+          opacity: 0.85;
+          text-align: center; }
+        .tours .pictures .wrapper .malbork img,
+        .tours .pictures .wrapper .stutthof img,
+        .tours .pictures .wrapper .szymbark img,
+        .tours .pictures .wrapper .night img,
+        .tours .pictures .wrapper .shop img,
+        .tours .pictures .wrapper .golf img {
+          width: 360px;
+          height: 300px; }
+        .tours .pictures .wrapper .malbork h2,
+        .tours .pictures .wrapper .stutthof h2,
+        .tours .pictures .wrapper .szymbark h2,
+        .tours .pictures .wrapper .night h2,
+        .tours .pictures .wrapper .shop h2,
+        .tours .pictures .wrapper .golf h2 {
+          text-transform: uppercase;
+          font-size: 35px;
+          padding: 60px; }
