@@ -543,5 +543,15 @@ footer {
 		.email {
 			text-align: left;
 		}
+
+		.social {
+			display: flex;
+			justify-content: flex-start;
+
+			img {
+				height: 6vh;
+				padding: 0;
+			}
+		}
 	}
 }

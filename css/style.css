@@ -531,3 +531,11 @@ footer {
       text-align: right; }
     footer .contact .email {
       text-align: left; }
+    footer .contact .social {
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-pack: start;
+          justify-content: flex-start; }
+      footer .contact .social img {
+        height: 6vh;
+        padding: 0; }
