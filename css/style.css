@@ -91,7 +91,10 @@ header {
       visibility: visible;
       transition: all .7s linear; }
     header .top-menu #checkbox1:checked + label .demo {
-      height: 200px; } }
+      height: 200px;
+      background-image: url("../img/menu_background.png");
+      background-size: cover;
+      background-repeat: repeat-x; } }
 
 .jumbotron {
   position: relative;
@@ -456,7 +459,24 @@ header {
         font-size: 4vw; } }
   .reservation .description {
     text-align: justify; }
-  .reservation .card {
+
+footer {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-align: center;
+      align-items: center;
+  height: 30vw;
+  background-image: url("../img/multivan_seat.png");
+  background-size: 100vw;
+  background-position: cover; }
+  @media (max-width: 900px) {
+    footer {
+      height: 50vw; } }
+  footer .card {
     display: -ms-flexbox;
     display: flex;
     -ms-flex-direction: column;
@@ -466,43 +486,48 @@ header {
     -ms-flex-align: center;
         align-items: center;
     text-align: center; }
-    .reservation .card img {
+    footer .card img {
       width: 30vw; }
       @media (max-width: 900px) {
-        .reservation .card img {
+        footer .card img {
           width: 60vw; } }
-
-footer {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-direction: row;
-      flex-direction: row;
-  -ms-flex-pack: center;
-      justify-content: center;
-  -ms-flex-align: center;
-      align-items: center;
-  text-align: center;
-  height: 30vw;
-  background-image: url("../img/multivan_seat.png");
-  background-size: 100vw;
-  background-position: cover; }
-  @media (max-width: 900px) {
-    footer {
-      height: 50vw; } }
-  footer img {
-    height: 15vh;
-    padding: 0 3vw; }
+    footer .card h4 {
+      font-size: 1.7vw;
+      color: #e5ac00;
+      padding: 1vw 0;
+      text-align: justify;
+      line-height: 120%; }
+      @media (max-width: 900px) {
+        footer .card h4 {
+          font-size: 4vw; } }
+  footer .contact {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+        flex-direction: row;
+    -ms-flex-pack: center;
+        justify-content: center;
+    -ms-flex-align: center;
+        align-items: center;
+    text-align: center;
+    height: 20vw; }
     @media (max-width: 900px) {
-      footer img {
-        height: 10vh; } }
-  footer h3 {
-    color: white;
-    font-size: 1.5vw;
-    line-height: 150%; }
-    @media (max-width: 900px) {
-      footer h3 {
-        font-size: 3vw; } }
-  footer .address {
-    text-align: right; }
-  footer .email {
-    text-align: left; }
+      footer .contact {
+        height: 40vw; } }
+    footer .contact img {
+      height: 15vh;
+      padding: 0 3vw; }
+      @media (max-width: 900px) {
+        footer .contact img {
+          height: 10vh; } }
+    footer .contact h3 {
+      color: white;
+      font-size: 1.5vw;
+      line-height: 150%; }
+      @media (max-width: 900px) {
+        footer .contact h3 {
+          font-size: 3vw; } }
+    footer .contact .address {
+      text-align: right; }
+    footer .contact .email {
+      text-align: left; }

@@ -53,7 +53,6 @@ header {
 
 		#checkbox1 {
 			display: none;
-
 		}
 
 
@@ -111,6 +110,9 @@ header {
 
 			#checkbox1:checked + label .demo {
 				height: 200px;
+				background-image: url('../img/menu_background.png');
+				background-size: cover;
+				background-repeat: repeat-x; 
 			}
 		}	
 	}
@@ -460,6 +462,21 @@ header {
 	.description {
 		text-align: justify;
 	}
+}
+
+footer {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	height: 30vw;
+	background-image: url('../img/multivan_seat.png');
+	background-size: 100vw;
+	background-position: cover;
+
+	@media (max-width: 900px) {
+		height: 50vw;
+		}
 
 	.card {
 		display: flex;
@@ -474,48 +491,57 @@ header {
 				width: 60vw;
 			}
 		}
-	}
-}
 
-footer {
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	align-items: center;
-	text-align: center;
-	height: 30vw;
-	background-image: url('../img/multivan_seat.png');
-	background-size: 100vw;
-	background-position: cover;
+		h4 {
+			font-size: 1.7vw;
+			color: $yellow;
+			padding: 1vw 0;
+			text-align: justify;
+			line-height: 120%;
 
-	@media (max-width: 900px) {
-			height: 50vw;
+			@media (max-width: 900px) {
+				font-size: 4vw;
+			}
 		}
+	}
 
-	img {
-		height: 15vh;
-		padding: 0 3vw;
+	.contact {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+		height: 20vw;
 
 		@media (max-width: 900px) {
-			height: 10vh;
+				height: 40vw;
+			}
+
+		img {
+			height: 15vh;
+			padding: 0 3vw;
+
+			@media (max-width: 900px) {
+				height: 10vh;
+			}
 		}
-	}
 
-	h3 {
-		color: white;
-		font-size: 1.5vw;
-		line-height: 150%;
+		h3 {
+			color: white;
+			font-size: 1.5vw;
+			line-height: 150%;
 
-		@media (max-width: 900px) {
-			font-size: 3vw;
+			@media (max-width: 900px) {
+				font-size: 3vw;
+			}
 		}
-	}
 
-	.address {
-		text-align: right;
-	}
+		.address {
+			text-align: right;
+		}
 
-	.email {
-		text-align: left;
+		.email {
+			text-align: left;
+		}
 	}
 }
