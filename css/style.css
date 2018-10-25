@@ -121,6 +121,32 @@ header {
     font-weight: bold;
     color: white; }
 
+.airport-transfers {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  -ms-flex-align: center;
+      align-items: center; }
+  .airport-transfers img {
+    width: 100vw; }
+  .airport-transfers h4 {
+    font-size: 1.7vw;
+    color: #e5ac00;
+    padding: 5vw 0;
+    text-align: justify;
+    line-height: 120%; }
+    @media (max-width: 1100px) {
+      .airport-transfers h4 {
+        padding: 5vw;
+        font-size: 3vw; } }
+    @media (max-width: 900px) {
+      .airport-transfers h4 {
+        padding: 5vw;
+        font-size: 4vw; } }
+
 .advantages {
   width: 100vw;
   display: -ms-flexbox;
@@ -148,6 +174,9 @@ header {
       .advantages .quality {
         font-size: 4.5vw;
         margin-top: 0.1vh; } }
+    .advantages .quality a {
+      text-decoration: none;
+      color: white; }
     .advantages .quality .advantage {
       padding: 15vh 7vw;
       text-align: center;
@@ -205,6 +234,9 @@ header {
       height: 25vw;
       color: #e5ac00;
       text-align: center; }
+      .services .our_services .wrapper a {
+        text-decoration: none;
+        color: #e5ac00; }
       .services .our_services .wrapper .driver {
         display: -ms-flexbox;
         display: flex;
@@ -322,7 +354,8 @@ header {
           height: 300px;
           background-color: #e5ac00;
           opacity: 0.85;
-          text-align: center; }
+          text-align: justify;
+          vertical-align: center; }
           @media (max-width: 900px) {
             .tours .pictures .wrapper .malbork .layer,
             .tours .pictures .wrapper .stutthof .layer,
@@ -331,7 +364,15 @@ header {
             .tours .pictures .wrapper .shop .layer,
             .tours .pictures .wrapper .golf .layer {
               width: 50vw;
-              height: 30vh; } }
+              height: 30vh;
+              font-size: 3vw; } }
+          .tours .pictures .wrapper .malbork .layer p,
+          .tours .pictures .wrapper .stutthof .layer p,
+          .tours .pictures .wrapper .szymbark .layer p,
+          .tours .pictures .wrapper .night .layer p,
+          .tours .pictures .wrapper .shop .layer p,
+          .tours .pictures .wrapper .golf .layer p {
+            padding: 1vw; }
         .tours .pictures .wrapper .malbork img,
         .tours .pictures .wrapper .stutthof img,
         .tours .pictures .wrapper .szymbark img,
