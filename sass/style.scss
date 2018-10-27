@@ -379,6 +379,14 @@ header {
 
 					p {
 						padding: 1vw;
+						font-size: 1vw;
+						line-height: 1.5vw;
+
+						@media (max-width: 800px) {
+							padding: 2vw;
+							font-size: 3vw;
+							line-height: 4vw;
+						}
 					}
 				}
 

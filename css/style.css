@@ -372,7 +372,19 @@ header {
           .tours .pictures .wrapper .night .layer p,
           .tours .pictures .wrapper .shop .layer p,
           .tours .pictures .wrapper .golf .layer p {
-            padding: 1vw; }
+            padding: 1vw;
+            font-size: 1vw;
+            line-height: 1.5vw; }
+            @media (max-width: 800px) {
+              .tours .pictures .wrapper .malbork .layer p,
+              .tours .pictures .wrapper .stutthof .layer p,
+              .tours .pictures .wrapper .szymbark .layer p,
+              .tours .pictures .wrapper .night .layer p,
+              .tours .pictures .wrapper .shop .layer p,
+              .tours .pictures .wrapper .golf .layer p {
+                padding: 2vw;
+                font-size: 3vw;
+                line-height: 4vw; } }
         .tours .pictures .wrapper .malbork img,
         .tours .pictures .wrapper .stutthof img,
         .tours .pictures .wrapper .szymbark img,
