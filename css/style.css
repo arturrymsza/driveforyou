@@ -592,3 +592,55 @@ footer {
       footer .contact .social img {
         height: 6vh;
         padding: 0; }
+
+.lang {
+  display: block;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: black;
+  background-color: rgba(0, 0, 0, 0.6); }
+
+.lang-content {
+  color: #e5ac00;
+  background-color: rgba(0, 0, 0, 0.7);
+  margin: auto;
+  border-radius: 0.8vw;
+  padding: 3vw;
+  width: 60vw; }
+  .lang-content h2 {
+    font-family: 'nocturne', sans-serif;
+    font-size: 2vw;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 2vw; }
+  .lang-content .flags {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+        flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+        justify-content: space-around; }
+    .lang-content .flags img {
+      height: 7.5vw;
+      width: 12.5vw;
+      cursor: pointer; }
+
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold; }
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer; }
