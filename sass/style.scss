@@ -145,6 +145,35 @@ header {
 	}
 }
 
+.airport-transfers {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+
+	img {
+		width: 100vw;
+	}
+
+	h4 {
+		font-size: 1.7vw;
+		color: $yellow;
+		padding: 5vw 0;
+		text-align: justify;
+		line-height: 120%;
+
+		@media (max-width: 1100px) {
+			padding: 5vw;	
+			font-size: 3vw;
+		}
+
+		@media (max-width: 900px) {
+			padding: 5vw;	
+			font-size: 4vw;
+		}
+	}
+}
+
 .advantages {
 	width: 100vw;
 	display: flex;
@@ -159,7 +188,6 @@ header {
 		flex-direction: row;
 		justify-content: space-around;
 		align-items: center;
-		font-size: 2.3vw;
 		margin-top: 1.3vh;
 		padding-top: 3vh;
 
@@ -168,7 +196,13 @@ header {
 			margin-top: 0.1vh;
 		}
 
+		a {
+				text-decoration: none;
+				color: white;
+		}
+
 		.advantage {
+			font-size: 2.3vw;
 			padding: 15vh 7vw;
 			text-align: center;
 			background-image: url('../img/kolo.png');
@@ -230,6 +264,11 @@ header {
 			height: 25vw;
 			color: $yellow;
 			text-align: center;
+
+			a {
+				text-decoration: none;
+				color: $yellow;
+			}
 
 			.driver {
 				display: flex;
@@ -329,11 +368,25 @@ header {
 					height: 300px;
 					background-color: $yellow;
 					opacity: 0.85;
-					text-align: center;
+					text-align: justify;
+					vertical-align: center;
 
 					@media (max-width: 900px) {
 						width: 50vw;
 						height: 30vh;
+						font-size: 3vw;
+					}
+
+					p {
+						padding: 1vw;
+						font-size: 1vw;
+						line-height: 1.5vw;
+
+						@media (max-width: 800px) {
+							padding: 2vw;
+							font-size: 3vw;
+							line-height: 4vw;
+						}
 					}
 				}
 
@@ -554,4 +607,62 @@ footer {
 			}
 		}
 	}
+}
+
+.lang {
+    display: block; 
+    position: fixed; 
+    z-index: 1; 
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.6); 
+}
+
+.lang-content {
+	color: $yellow;
+    background-color: rgba(0,0,0,0.7);
+    margin: auto;
+    border-radius: 0.8vw;
+    padding: 3vw;
+    width: 60vw;
+
+    h2 {
+    	font-family: 'nocturne', sans-serif;
+    	font-size: 2vw;
+    	text-transform: uppercase;
+    	text-align: center;
+    	padding: 2vw;
+    }
+
+	.flags {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-around;
+
+	    img {
+	    	height: 7.5vw;
+	    	width: 12.5vw;
+	    	cursor: pointer;
+	    }
+	}
+}
+
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
 }

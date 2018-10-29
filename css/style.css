@@ -121,6 +121,32 @@ header {
     font-weight: bold;
     color: white; }
 
+.airport-transfers {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  -ms-flex-align: center;
+      align-items: center; }
+  .airport-transfers img {
+    width: 100vw; }
+  .airport-transfers h4 {
+    font-size: 1.7vw;
+    color: #e5ac00;
+    padding: 5vw 0;
+    text-align: justify;
+    line-height: 120%; }
+    @media (max-width: 1100px) {
+      .airport-transfers h4 {
+        padding: 5vw;
+        font-size: 3vw; } }
+    @media (max-width: 900px) {
+      .airport-transfers h4 {
+        padding: 5vw;
+        font-size: 4vw; } }
+
 .advantages {
   width: 100vw;
   display: -ms-flexbox;
@@ -141,14 +167,17 @@ header {
         justify-content: space-around;
     -ms-flex-align: center;
         align-items: center;
-    font-size: 2.3vw;
     margin-top: 1.3vh;
     padding-top: 3vh; }
     @media (max-width: 900px) {
       .advantages .quality {
         font-size: 4.5vw;
         margin-top: 0.1vh; } }
+    .advantages .quality a {
+      text-decoration: none;
+      color: white; }
     .advantages .quality .advantage {
+      font-size: 2.3vw;
       padding: 15vh 7vw;
       text-align: center;
       background-image: url("../img/kolo.png");
@@ -205,6 +234,9 @@ header {
       height: 25vw;
       color: #e5ac00;
       text-align: center; }
+      .services .our_services .wrapper a {
+        text-decoration: none;
+        color: #e5ac00; }
       .services .our_services .wrapper .driver {
         display: -ms-flexbox;
         display: flex;
@@ -322,7 +354,8 @@ header {
           height: 300px;
           background-color: #e5ac00;
           opacity: 0.85;
-          text-align: center; }
+          text-align: justify;
+          vertical-align: center; }
           @media (max-width: 900px) {
             .tours .pictures .wrapper .malbork .layer,
             .tours .pictures .wrapper .stutthof .layer,
@@ -331,7 +364,27 @@ header {
             .tours .pictures .wrapper .shop .layer,
             .tours .pictures .wrapper .golf .layer {
               width: 50vw;
-              height: 30vh; } }
+              height: 30vh;
+              font-size: 3vw; } }
+          .tours .pictures .wrapper .malbork .layer p,
+          .tours .pictures .wrapper .stutthof .layer p,
+          .tours .pictures .wrapper .szymbark .layer p,
+          .tours .pictures .wrapper .night .layer p,
+          .tours .pictures .wrapper .shop .layer p,
+          .tours .pictures .wrapper .golf .layer p {
+            padding: 1vw;
+            font-size: 1vw;
+            line-height: 1.5vw; }
+            @media (max-width: 800px) {
+              .tours .pictures .wrapper .malbork .layer p,
+              .tours .pictures .wrapper .stutthof .layer p,
+              .tours .pictures .wrapper .szymbark .layer p,
+              .tours .pictures .wrapper .night .layer p,
+              .tours .pictures .wrapper .shop .layer p,
+              .tours .pictures .wrapper .golf .layer p {
+                padding: 2vw;
+                font-size: 3vw;
+                line-height: 4vw; } }
         .tours .pictures .wrapper .malbork img,
         .tours .pictures .wrapper .stutthof img,
         .tours .pictures .wrapper .szymbark img,
@@ -539,3 +592,55 @@ footer {
       footer .contact .social img {
         height: 6vh;
         padding: 0; }
+
+.lang {
+  display: block;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: black;
+  background-color: rgba(0, 0, 0, 0.6); }
+
+.lang-content {
+  color: #e5ac00;
+  background-color: rgba(0, 0, 0, 0.7);
+  margin: auto;
+  border-radius: 0.8vw;
+  padding: 3vw;
+  width: 60vw; }
+  .lang-content h2 {
+    font-family: 'nocturne', sans-serif;
+    font-size: 2vw;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 2vw; }
+  .lang-content .flags {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+        flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+        justify-content: space-around; }
+    .lang-content .flags img {
+      height: 7.5vw;
+      width: 12.5vw;
+      cursor: pointer; }
+
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold; }
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer; }
