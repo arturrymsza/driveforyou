@@ -188,7 +188,6 @@ header {
 		flex-direction: row;
 		justify-content: space-around;
 		align-items: center;
-		font-size: 2.3vw;
 		margin-top: 1.3vh;
 		padding-top: 3vh;
 
@@ -203,6 +202,7 @@ header {
 		}
 
 		.advantage {
+			font-size: 2.3vw;
 			padding: 15vh 7vw;
 			text-align: center;
 			background-image: url('../img/kolo.png');
