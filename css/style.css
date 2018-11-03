@@ -632,6 +632,11 @@ footer {
       height: 7.5vw;
       width: 12.5vw;
       cursor: pointer; }
+      @media (max-width: 900px) {
+        .lang-content .flags img {
+          width: 37.5vw;
+          height: 26.5vw;
+          padding: 5vw; } }
 
 .close {
   color: #aaaaaa;

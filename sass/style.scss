@@ -649,6 +649,12 @@ footer {
 	    	height: 7.5vw;
 	    	width: 12.5vw;
 	    	cursor: pointer;
+
+	    	@media (max-width: 900px) {
+					width: 37.5vw;
+					height: 26.5vw;
+					padding: 5vw;
+				}
 	    }
 	}
 }
