@@ -91,9 +91,6 @@ function pol() {
 	reservationHead.innerHTML = 'Rezerwacja';
 	reservationContent.innerHTML = 'Aby dokonać rezerwacji, wystarczy zadzwonić pod nasz numer kontaktowy +48 518 369 629. Aby potwierdzić rezerwację, musisz zapłacić kartą kredytową.';
 	cardContent.innerHTML = 'Akceptujemy poniższe karty kredytowe:';
-	adv.style.padding = "15vh 1.3vw";
-	advSafe.style.padding = "15vh 1.3vw";
-	advExp.style.padding = "15vh 1.3vw";
 	adv.style.fontSize = "2.1vw";
 	advSafe.style.fontSize = "1.7vw";
 	advExp.style.fontSize = "1.7vw";

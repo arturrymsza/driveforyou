@@ -215,6 +215,14 @@ header {
 			}
 		}
 
+		.safety {
+			padding: 15vh 3vw;
+
+			@media (max-width: 900px) {
+				padding: 15vh 7vw;
+			}
+		}
+
 	}
 
 	h4 {
