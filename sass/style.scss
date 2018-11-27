@@ -523,6 +523,66 @@ header {
 	.description {
 		text-align: justify;
 	}
+
+	.form {
+
+		color: white;
+
+		.person {
+			display: flex;
+			flex-direction: row;
+			flex-wrap: wrap;
+			justify-content: center;
+
+			div {
+				padding: 0.2vw 1vw;
+			}
+		}
+
+		.phone {
+			display: flex;
+			flex-direction: row;
+			flex-wrap: wrap;
+			justify-content: center;
+
+			div {
+				padding: 0.2vw 1vw;
+			}
+		}
+
+		.arrival {
+			display: flex;
+			flex-direction: row;
+			flex-wrap: wrap;
+			justify-content: center;
+
+			div {
+				padding: 0.2vw 1vw;
+			}
+		}
+
+		.departure {
+			display: flex;
+			flex-direction: row;
+			flex-wrap: wrap;
+			justify-content: center;
+
+			div {
+				padding: 0.2vw 1vw;
+			}
+		}
+
+		.additional {
+			display: flex;
+			flex-direction: column;
+			flex-wrap: wrap;
+			align-items: center;
+
+			div {
+				padding: 0.2vw 1vw;
+			}
+		}
+	}
 }
 
 footer {

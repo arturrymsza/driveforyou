@@ -517,6 +517,63 @@ header {
         font-size: 4vw; } }
   .reservation .description {
     text-align: justify; }
+  .reservation .form {
+    color: white; }
+    .reservation .form .person {
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-direction: row;
+          flex-direction: row;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+      -ms-flex-pack: center;
+          justify-content: center; }
+      .reservation .form .person div {
+        padding: 0.2vw 1vw; }
+    .reservation .form .phone {
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-direction: row;
+          flex-direction: row;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+      -ms-flex-pack: center;
+          justify-content: center; }
+      .reservation .form .phone div {
+        padding: 0.2vw 1vw; }
+    .reservation .form .arrival {
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-direction: row;
+          flex-direction: row;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+      -ms-flex-pack: center;
+          justify-content: center; }
+      .reservation .form .arrival div {
+        padding: 0.2vw 1vw; }
+    .reservation .form .departure {
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-direction: row;
+          flex-direction: row;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+      -ms-flex-pack: center;
+          justify-content: center; }
+      .reservation .form .departure div {
+        padding: 0.2vw 1vw; }
+    .reservation .form .additional {
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-direction: column;
+          flex-direction: column;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+      -ms-flex-align: center;
+          align-items: center; }
+      .reservation .form .additional div {
+        padding: 0.2vw 1vw; }
 
 footer {
   display: -ms-flexbox;
