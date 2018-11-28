@@ -523,6 +523,74 @@ header {
 	.description {
 		text-align: justify;
 	}
+
+	.form {
+
+		color: white;
+		padding: 3vh 3vh;
+
+		.person {
+			display: flex;
+			flex-direction: row;
+			flex-wrap: wrap;
+			justify-content: center;
+
+			div {
+				padding: 0.2vw 1vw;
+			}
+		}
+
+		.phone {
+			display: flex;
+			flex-direction: row;
+			flex-wrap: wrap;
+			justify-content: center;
+
+			div {
+				padding: 0.2vw 1vw;
+			}
+		}
+
+		.arrival {
+			display: flex;
+			flex-direction: row;
+			flex-wrap: wrap;
+			justify-content: center;
+
+			div {
+				padding: 0.2vw 1vw;
+			}
+		}
+
+		.departure {
+			display: flex;
+			flex-direction: row;
+			flex-wrap: wrap;
+			justify-content: center;
+
+			div {
+				padding: 0.2vw 1vw;
+			}
+		}
+
+		.additional {
+			display: flex;
+			flex-direction: column;
+			flex-wrap: wrap;
+			align-items: center;
+
+			div {
+				padding: 0.2vw 1vw;
+			}
+
+			.form_button {
+				border-radius: 0.5vh;
+				background-color: $yellow;
+				padding: 1vh;
+				border: none;
+			}
+		}
+	}
 }
 
 footer {
@@ -536,7 +604,7 @@ footer {
 	background-position: cover;
 
 	@media (max-width: 900px) {
-		height: 50vw;
+		height: 60vw;
 		}
 
 	.card {
@@ -613,6 +681,24 @@ footer {
 				height: 6vh;
 				padding: 0;
 			}
+		}
+	}
+
+	.author {
+		width: 100%;
+		font-family: 'apropal', sans-serif;
+		font-size: 1vh;
+		color: white;
+		padding: 1vh;
+		display: flex;
+		flex-direction: row;
+		justify-content: flex-end;
+		align-items: center;
+
+		.wytvornia_logo {
+			height: 3.5vh;
+			border-radius: 50%;
+			margin-left: 1vh;
 		}
 	}
 }

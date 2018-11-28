@@ -3,9 +3,10 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="High quality Gdansk Airport transfers (GDN transfers) and personal transportation services with luxury cars and vans.">
 		<link rel="stylesheet" type="text/css" href="css/reset.css">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
-		<title>Drive For You - Transfery Gdańsk, Gdansk Airport Transfers</title>
+		<title>Transfery Gdańsk, Gdansk Airport Transfers, GDN Transfer</title>
 	</head>
 	<body>
 		<header>
@@ -24,12 +25,12 @@
 			</nav>
 		</header>
 		<div class="jumbotron">
-			<img src="img/logo.png">
+			<img src="img/logo.png" alt="drive for you - big logo">
 			<h2>+48 518 369 629</h2>		
 		</div>
 		<div class="airport-transfers" id="airport">
-			<h2 class="section_head" id="airport_head">airport transfers</h2>	
-			<img src="img/viano.jpg">
+			<h1 class="section_head" id="airport_head">airport transfers</h2>	
+			<img src="img/viano.jpg" alt="black Mercedes V-class on the airport">
 			<div class="description container">
 				<h4 id="airport_content">We offer high quality Gdańsk Airport (GDN) transfers. We will pick-up you from the airport and give you comfortable transport to your hotel or apartment.
 				Start your holiday on a relaxing note with a comfortable and convenient transfer from the Gdańsk Airport (GDN), directly to your doorstep.</h4>
@@ -79,7 +80,7 @@
 		</div>
 		<div class="business-trips" id="trip">
 			<h2 class="section_head" id="business_head">business trips</h2>	
-			<img src="img/business.jpg">
+			<img src="img/business.jpg" alt="black Mercedes sedan with businessman onbard and chauffer opening the car door">
 			<div class="description container">
 				<h4 id="business_content">We provide high quality business transportation services including pick up and drop off on the airport, transport between business meetings, greeting your business partners and much more services fit to your exact needs.</h4>
 			</div>
@@ -201,25 +202,120 @@
 			<div class="description container">
 				<h4 id="fleet_content">Our fleet including premium cars and vans which will give you the comfort you searching for. We will provide you luxury sedan as well as comfortable premium 9 seater van. Everything to meet your needs.</h4>
 			</div>
-			<img src="img/kaszuby.jpg">
+			<img src="img/kaszuby.jpg" alt="our fleet on the parkside in Kashubian region">
 		</div>
 		<div class="reservation" id="book">
 			<h2 class="section_head" id="reservation_head">reservation & payment</h2>	
 			<div class="description container">
 				<h4 id="reservation_content">To make a reservation you can just call our contact number +48 518 369 629 or fill up belowed form. To confirm your reservation you have to pay by credit card.</h4>
 			</div>
+			<form  class="form" action="mailto:skarbowy@wp.pl?subject=drive for you - service" method="post" enctype="text/plain">
+				<div class="person">
+					<div>
+						<h5 id="name1">Name:</h5><br>
+						<input type="text" name="name"><br>
+					</div>
+					<div>
+						<h5 id="surname">Surname:</h5><br>
+						<input type="text" name="surname"><br>
+					</div>
+					<div>
+						<h5 id="short">Company name:</h5><br>
+						<input type="text" name="company name"><br>
+					</div>
+				</div>
+				<div class="phone">
+					<div>
+						<h5 id="phone">Phone number:</h5><br>
+						<input type="text" name="Phone number"><br>
+					</div>
+					<div>
+						<h5 id="country">Country:</h5><br>
+						<input type="text" name="country"><br>
+					</div>
+					<div>
+						<h5 id="mail">E-mail:</h5><br>
+						<input type="text" name="email"><br>
+					</div>
+				</div>
+				<div class="arrival">
+					<div>
+						<h5 id="arrival">Arrival date:</h5><br>
+						<input type="date" name="arrival date"><br>
+					</div>
+					<div>
+						<h5 id="arrival_time">Arrival time:</h5><br>
+						<input type="time" name="arrival time"><br>
+					</div>
+					<div>
+						<h5 id="city">City:</h5><br>
+						<input type="text" name="arrival city"><br>
+					</div>
+					<div>
+						<h5 id="flight">Flight Number:</h5><br>
+						<input type="text" name="arrival flight number"><br>
+					</div>
+					<div>
+						<h5 id="people">Number of people:</h5><br>
+						<input type="number" name="number of people"><br>
+					</div>
+				</div>
+				<div class="departure">
+					<div>
+						<h5 id="departure">Departure date:</h5><br>
+						<input type="date" name="departure date"><br>
+					</div>
+					<div>
+						<h5 id="departure_time">Departure time:</h5><br>
+						<input type="time" name="arrival time"><br>
+					</div>
+					<div>
+						<h5 id="city2">City:</h5><br>
+						<input type="text" name="departure city"><br>
+					</div>
+					<div>
+						<h5 id="flight2">Flight number:</h5><br>
+						<input type="text" name="departure flight number"><br>
+					</div>
+					<div>
+						<h5 id="people2">Number of people:</h5><br>
+						<input type="number" name="number of people"><br>
+					</div>
+				</div>
+				<div class="additional">
+					<div>
+						<h5 id="hotel">Place of stay(name of hotel/apartment):</h5><br>
+						<textarea name="place of stay" cols="50"></textarea><br>
+					</div>
+					<div>
+						<h5 id="paid">Paid:</h5><br>
+						<select name="choosen paid method">
+	  						<option value="on arrive" id="on_arrive">On arrive</option>
+	  						<option value="online" id="online">Online</option>
+	  					</select><br>
+	  				</div>
+	  				<div>
+						<h5 id="additional">Additional information:</h5><br>
+						<textarea name="comment" cols="50" rows="4">
+						</textarea>
+					</div>
+					<div>
+						<input type="submit" value="Send" id="send" class="form_button">
+						<input type="reset" value="Reset" id="clear" class="form_button">
+					</div>
+				</div>
+			</form>
 		</div>
 		<footer id="contact">
 			<div class="card container">
 				<h4 id="card_content">We accept belowed credit cards:</h4>
-				<img src="img/karty.png">
+				<img src="img/karty.png" alt="credit cards - Visa, MasterCard, American Express, PayPal">
 			</div>
 			<div class="contact">
 				<div>
 					<h3 class="address" id="address">
 						Drive for You<br>
-						ul. Kowalskiego 1/1<br>
-						00-000 Gdańsk
+						Gdańsk
 					</h3>	
 				</div>
 				<div>
@@ -228,7 +324,7 @@
 				<div>
 					<div>
 						<h3 class="email" id="email">
-							driveforyou@mail.com<br>
+							skarbowy@wp.pl<br>
 							tel. +48 518 369 629
 						</h3>
 					</div>
@@ -238,14 +334,18 @@
 					</div>
 				</div>
 			</div>	
+			<div class="author">
+				<h4 id="author">website made by</h4>
+				<a href="https://www.facebook.com/wytvornia/" target="_blank"><img class="wytvornia_logo" src="img/wytvornia_awatar.png" alt="Wytvórnia Kreatywna logo"></a>
+			</div>
 		</footer>
 		<div id="choose_lang" class="lang">
 			<div class="lang-content">
 				<span class="close">&times;</span>
     			<h2>Choose language/Wybierz język</h2>
     			<div class="flags">
-					<img src="img/POL.png" onclick="pol()">
-					<img src="img/ENG.png" onclick="eng()">
+					<img src="img/POL.png" onclick="pol()" alt="jezyk polski">
+					<img src="img/ENG.png" onclick="eng()" alt="english language">
 				</div>
   			</div>
 

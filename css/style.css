@@ -517,6 +517,69 @@ header {
         font-size: 4vw; } }
   .reservation .description {
     text-align: justify; }
+  .reservation .form {
+    color: white;
+    padding: 3vh 3vh; }
+    .reservation .form .person {
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-direction: row;
+          flex-direction: row;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+      -ms-flex-pack: center;
+          justify-content: center; }
+      .reservation .form .person div {
+        padding: 0.2vw 1vw; }
+    .reservation .form .phone {
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-direction: row;
+          flex-direction: row;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+      -ms-flex-pack: center;
+          justify-content: center; }
+      .reservation .form .phone div {
+        padding: 0.2vw 1vw; }
+    .reservation .form .arrival {
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-direction: row;
+          flex-direction: row;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+      -ms-flex-pack: center;
+          justify-content: center; }
+      .reservation .form .arrival div {
+        padding: 0.2vw 1vw; }
+    .reservation .form .departure {
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-direction: row;
+          flex-direction: row;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+      -ms-flex-pack: center;
+          justify-content: center; }
+      .reservation .form .departure div {
+        padding: 0.2vw 1vw; }
+    .reservation .form .additional {
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-direction: column;
+          flex-direction: column;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+      -ms-flex-align: center;
+          align-items: center; }
+      .reservation .form .additional div {
+        padding: 0.2vw 1vw; }
+      .reservation .form .additional .form_button {
+        border-radius: 0.5vh;
+        background-color: #e5ac00;
+        padding: 1vh;
+        border: none; }
 
 footer {
   display: -ms-flexbox;
@@ -533,7 +596,7 @@ footer {
   background-position: cover; }
   @media (max-width: 900px) {
     footer {
-      height: 50vw; } }
+      height: 60vw; } }
   footer .card {
     display: -ms-flexbox;
     display: flex;
@@ -597,6 +660,24 @@ footer {
       footer .contact .social img {
         height: 6vh;
         padding: 0; }
+  footer .author {
+    width: 100%;
+    font-family: 'apropal', sans-serif;
+    font-size: 1vh;
+    color: white;
+    padding: 1vh;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+        flex-direction: row;
+    -ms-flex-pack: end;
+        justify-content: flex-end;
+    -ms-flex-align: center;
+        align-items: center; }
+    footer .author .wytvornia_logo {
+      height: 3.5vh;
+      border-radius: 50%;
+      margin-left: 1vh; }
 
 .lang {
   display: block;
