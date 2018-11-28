@@ -55,6 +55,7 @@ var onArrive = document.getElementById('on_arrive');
 var online = document.getElementById('online');
 var send = document.getElementById('send');
 var clear = document.getElementById('clear');
+var author = document.getElementById('author');
 
 
 var chooseLang = document.getElementById('choose_lang');
@@ -135,6 +136,7 @@ function pol() {
 	online.innerHTML = 'Online';
 	send.value = 'Wyślij';
 	clear.value = 'Wyczyść';
+	author.innerHTML = 'strona stworzona przez';
 	adv.style.fontSize = "2.1vw";
 	advSafe.style.fontSize = "1.7vw";
 	advExp.style.fontSize = "1.7vw";
