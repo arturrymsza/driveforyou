@@ -581,6 +581,13 @@ header {
 			div {
 				padding: 0.2vw 1vw;
 			}
+
+			.form_button {
+				border-radius: 0.5vh;
+				background-color: $yellow;
+				padding: 1vh;
+				border: none;
+			}
 		}
 	}
 }

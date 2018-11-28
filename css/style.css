@@ -574,6 +574,11 @@ header {
           align-items: center; }
       .reservation .form .additional div {
         padding: 0.2vw 1vw; }
+      .reservation .form .additional .form_button {
+        border-radius: 0.5vh;
+        background-color: #e5ac00;
+        padding: 1vh;
+        border: none; }
 
 footer {
   display: -ms-flexbox;
