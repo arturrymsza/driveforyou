@@ -63,8 +63,8 @@ function pol() {
 	airportLink.innerHTML = 'transfery lotniskowe';
 	reservationLink.innerHTML = 'rezerwacja';
 	contactLink.innerHTML = 'kontakt';
-	airportHead.innerHTML = 'transfery lotniskowe';
-	airportContent.innerHTML = 'Oferujemy wysokiej jakości transfery z lotniska w Gdańsku (GDN). Odbierzemy Cię z lotniska i zapewniamy wygodny transport do Twojego hotelu lub apartamentu. Rozpocznij wakacje w relaksującej atmosferze dzięki wygodnemu transferowi z lotniska w Gdańsku (GDN), bezpośrednio do miejsca docelowego.';
+	businessHead.innerHTML = 'Podróże Biznesowe';
+	businessContent.innerHTML = 'Zapewniamy wysokiej jakości usługi w zakresie transportu biznesowego, w tym odbiór i dowóz na lotnisko, transport między spotkaniami biznesowymi, powitanie partnerów biznesowych i wiele innych usług dopasowanych do Twoich konkretnych potrzeb.';
 	reservationHead.innerHTML = 'Rezerwacja';
 	reservationContent.innerHTML = 'Aby dokonać rezerwacji, wystarczy zadzwonić pod nasz numer kontaktowy +48 518 369 629 lub wypełnić poniższy formularz. Aby potwierdzić rezerwację, musisz zapłacić kartą kredytową.';
 	cardContent.innerHTML = 'Akceptujemy poniższe karty kredytowe:';
