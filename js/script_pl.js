@@ -57,10 +57,6 @@ var send = document.getElementById('send');
 var clear = document.getElementById('clear');
 var author = document.getElementById('author');
 
-function move() {
-	if ()
-}
-
 function pol() {
 	aboutLink.innerHTML = 'o nas';
 	servicesLink.innerHTML = 'usługi';
