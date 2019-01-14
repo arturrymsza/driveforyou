@@ -57,6 +57,10 @@ var send = document.getElementById('send');
 var clear = document.getElementById('clear');
 var author = document.getElementById('author');
 
+function move() {
+	if ()
+}
+
 function pol() {
 	aboutLink.innerHTML = 'o nas';
 	servicesLink.innerHTML = 'usługi';
@@ -65,6 +69,8 @@ function pol() {
 	contactLink.innerHTML = 'kontakt';
 	airportHead.innerHTML = 'transfery lotniskowe';
 	airportContent.innerHTML = 'Oferujemy wysokiej jakości transfery z lotniska w Gdańsku (GDN). Odbierzemy Cię z lotniska i zapewniamy wygodny transport do Twojego hotelu lub apartamentu. Rozpocznij wakacje w relaksującej atmosferze dzięki wygodnemu transferowi z lotniska w Gdańsku (GDN), bezpośrednio do miejsca docelowego.';
+	continue;
+	reservationHead.innerHTML = 'Rezerwacja';
 	advPrem.innerHTML = 'Samochody<br>Premium';
 	advSafe.innerHTML = 'Bezpieczeństwo';
 	advExp.innerHTML = 'Doświadczenie';
@@ -88,7 +94,7 @@ function pol() {
 	tripsContent.innerHTML = 'Oferujemy szeroki zakres wycieczek krajoznawczych. Powyżej możesz zobaczyć nasze najpopularniejsze miejsca docelowe, ale zrobimy wycieczkę do każdego miejsca, którego potrzebujesz. Nasze wycieczki pozwolą Państwu poznać pomorskie atrakcje i przyjemnie spędzić czas.';
 	fleetHead.innerHTML = 'Nasza Flota';
 	fleetContent.innerHTML = 'Nasza flota obejmuje samochody premium i luksusowe vany, które zapewnią komfort, którego szukasz. Zapewnimy zarówno luksusową limuzynę, jak i wygodnego vana klasy premium z 9 miejscami siedzącymi. Wszystko, aby zaspokoić Twoje potrzeby.';
-	reservationHead.innerHTML = 'Rezerwacja';
+	
 	reservationContent.innerHTML = 'Aby dokonać rezerwacji, wystarczy zadzwonić pod nasz numer kontaktowy +48 518 369 629 lub wypełnić poniższy formularz. Aby potwierdzić rezerwację, musisz zapłacić kartą kredytową.';
 	cardContent.innerHTML = 'Akceptujemy poniższe karty kredytowe:';
 	name1.innerHTML = 'Imię:';
