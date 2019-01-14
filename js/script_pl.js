@@ -65,8 +65,12 @@ function pol() {
 	contactLink.innerHTML = 'kontakt';
 	airportHead.innerHTML = 'transfery lotniskowe';
 	airportContent.innerHTML = 'Oferujemy wysokiej jakości transfery z lotniska w Gdańsku (GDN). Odbierzemy Cię z lotniska i zapewniamy wygodny transport do Twojego hotelu lub apartamentu. Rozpocznij wakacje w relaksującej atmosferze dzięki wygodnemu transferowi z lotniska w Gdańsku (GDN), bezpośrednio do miejsca docelowego.';
-	continue;
+	
+	if (reservationHead == undefined) {
+		continue; } else {
 	reservationHead.innerHTML = 'Rezerwacja';
+		}
+	
 	advPrem.innerHTML = 'Samochody<br>Premium';
 	advSafe.innerHTML = 'Bezpieczeństwo';
 	advExp.innerHTML = 'Doświadczenie';
