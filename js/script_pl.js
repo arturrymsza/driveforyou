@@ -57,28 +57,6 @@ var send = document.getElementById('send');
 var clear = document.getElementById('clear');
 var author = document.getElementById('author');
 
-
-var chooseLang = document.getElementById('choose_lang');
-
-// Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[0];
-
-// When the user clicks on <span> (x), close the modal
-span.onclick = function() {
-    chooseLang.style.display = "none";
-}
-
-// When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
-    if (event.target == chooseLang) {
-        chooseLang.style.display = "none";
-    }
-}
-
-function eng() {
-	chooseLang.style.display = "none";
-}
-
 function pol() {
 	aboutLink.innerHTML = 'o nas';
 	servicesLink.innerHTML = 'usługi';
@@ -140,7 +118,7 @@ function pol() {
 	adv.style.fontSize = "2.1vw";
 	advSafe.style.fontSize = "1.7vw";
 	advExp.style.fontSize = "1.7vw";
-
-
-	chooseLang.style.display = "none";
 };
+
+pol();
+
