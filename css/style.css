@@ -519,7 +519,8 @@ header {
     text-align: justify; }
   .reservation .form {
     color: white;
-    padding: 3vh 3vh; }
+    padding: 3vh 3vh;
+    max-width: 80vw; }
     .reservation .form .person {
       display: -ms-flexbox;
       display: flex;
@@ -574,7 +575,8 @@ header {
       -ms-flex-align: center;
           align-items: center; }
       .reservation .form .additional div {
-        padding: 0.2vw 1vw; }
+        padding: 0.2vw 1vw;
+        max-width: 80vw; }
       .reservation .form .additional .form_button {
         border-radius: 0.5vh;
         background-color: #e5ac00;
