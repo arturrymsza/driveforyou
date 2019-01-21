@@ -528,6 +528,7 @@ header {
 
 		color: white;
 		padding: 3vh 3vh;
+		max-width: 80vw;
 
 		.person {
 			display: flex;
@@ -581,6 +582,7 @@ header {
 
 			div {
 				padding: 0.2vw 1vw;
+				max-width: 80vw;
 			}
 
 			.form_button {
