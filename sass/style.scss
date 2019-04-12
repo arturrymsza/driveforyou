@@ -444,12 +444,21 @@ header {
 	flex-direction: column;
 	justify-content: space-between;
 	align-items: center;
+	font-size: 1.7vw;
+	color: $yellow;
+	text-align: justify;
+	line-height: 120%;
+
+	a {
+		color: $yellow;
+		text-decoration: none;
+	}
 
 	img {
 		width: 100vw;
 	}
 
-	h4 {
+	h4, h3, h2 {
 		font-size: 1.7vw;
 		color: $yellow;
 		padding: 5vw 0;
