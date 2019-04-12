@@ -151,11 +151,16 @@ header {
 	justify-content: space-between;
 	align-items: center;
 
+	a {
+		color: $yellow;
+		text-decoration: none;
+	}
+
 	img {
 		width: 100vw;
 	}
 
-	h4 {
+	h4, h2, h3, p {
 		font-size: 1.7vw;
 		color: $yellow;
 		padding: 5vw 0;

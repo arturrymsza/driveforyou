@@ -188,11 +188,16 @@ header .top-menu .menu a {
           align-items: center;
 }
 
+.airport-transfers a {
+  color: #e5ac00;
+  text-decoration: none;
+}
+
 .airport-transfers img {
   width: 100vw;
 }
 
-.airport-transfers h4 {
+.airport-transfers h4, .airport-transfers h2, .airport-transfers h3, .airport-transfers p {
   font-size: 1.7vw;
   color: #e5ac00;
   padding: 5vw 0;
@@ -201,14 +206,14 @@ header .top-menu .menu a {
 }
 
 @media (max-width: 1100px) {
-  .airport-transfers h4 {
+  .airport-transfers h4, .airport-transfers h2, .airport-transfers h3, .airport-transfers p {
     padding: 5vw;
     font-size: 3vw;
   }
 }
 
 @media (max-width: 900px) {
-  .airport-transfers h4 {
+  .airport-transfers h4, .airport-transfers h2, .airport-transfers h3, .airport-transfers p {
     padding: 5vw;
     font-size: 4vw;
   }
