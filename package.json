@@ -22,9 +22,9 @@
   "dependencies": {
     "autoprefixer-cli": "^1.0.0",
     "bourbon": "^5.0.1",
-    "browser-sync": "^2.24.4",
+    "browser-sync": "^2.29.1",
     "glob-run": "^0.1.6",
-    "jshint": "^2.9.5",
+    "jshint": "^2.13.6",
     "nu-html-checker": "^0.1.0",
     "onchange": "^4.0.0",
     "parallelshell": "^3.0.2",
